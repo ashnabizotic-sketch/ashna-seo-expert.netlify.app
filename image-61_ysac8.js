@@ -1,0 +1,1 @@
+function n(r,i={w:800}){const e=new URLSearchParams({url:r,w:String(i.w),fm:"webp"});return i.h&&e.set("h",String(i.h)),(i.h||i.fit)&&e.set("fit",i.fit??"cover"),e.set("q",String(i.q??72)),`/.netlify/images?${e.toString()}`}export{n as i};
